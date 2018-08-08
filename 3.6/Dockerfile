@@ -1,4 +1,4 @@
-FROM devopsftw/baseimage:0.2.1
+FROM devopsftw/baseimage:0.4.0
 
 RUN add-apt-repository ppa:jonathonf/python-3.6 \
     && apt-get update -qq \
